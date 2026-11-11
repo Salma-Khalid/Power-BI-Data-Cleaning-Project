@@ -9,10 +9,9 @@ The objective is to improve data quality, ensure consistency, remove duplicate r
 - Microsoft Power BI
 - Power Query
 - Power Query M Language
-- CSV (UTF-8)
 
 ## Dataset Description
-The dataset contains information about ranked social media accounts, including:
+The dataset contains information about top instagram accounts, including:
 
 - `username`: Account username
 - `followers`: Number of followers
@@ -23,14 +22,14 @@ The dataset contains information about ranked social media accounts, including:
 - `rank`: Account ranking
 - `countries`: Country-related information
 
-*Dataset source: [Add original dataset source here].*
+*Dataset source: (https://www.kaggle.com/datasets/arkhiplisitsa/instagram-top-accounts).*
 
 ## Data Cleaning Process
 
 The following transformations were performed using Power Query:
 
 1. **Data Import**
-   - Imported the CSV file using UTF-8 encoding.
+   - Imported the CSV file .
    - Configured comma as the column delimiter.
 
 2. **Header Transformation**
